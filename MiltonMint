@@ -1,0 +1,124 @@
+#!/bin/bash
+
+## Começando meu Shell Script! ##
+
+sudo rm var lib dpkg lock-frontend ; sudo rm/var/cache/apt/archives/lock; 
+
+## Atualizando o repositório ##
+
+sudo apt update
+
+## Download de aplicativos externos: ##
+
+mkdir /home/$USER/Downloads/programas
+
+cd /home/$USER/Downloads/programas
+
+## Google Chrome ##
+
+wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+## VSCode Microsoft Professional ##
+
+wget -c https://az764295.vo.msecnd.net/stable/d2e414d9e4239a252d1ab117bd7067f125afd80a/code_1.50.1-1602600906_amd64.deb
+
+## OnlyOffice Desktop Edition ##
+
+wget -c  https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb?_ga=2.57419820.764533964.1595236576-1157782750.1587541027
+
+
+sudo dpkg -i *.deb
+
+
+## Brave Browser ##
+
+
+sudo apt install apt-transport-https curl
+
+curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+
+echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+
+sudo apt install brave-browser
+
+
+## PopCorn Time ##
+
+wget -c https://ci.popcorntime.sh/view/All/job/Popcorn-Time-Desktop/lastSuccessfulBuild/artifact/build/Popcorn-Time-0.3.10_linux64.tar.xz -O popcorntime.tar.xz
+
+sudo mkdir /opt/popcorntime
+
+sudo tar Jxf popcorntime.tar.xz -C /opt/popcorntime/
+
+sudo ln -sf /opt/popcorntime/Popcorn-Time /usr/bin/Popcorn-Time
+
+cp /usr/share/applications/popcorntime.desktop  ~/Área\ de\ Trabalho/
+
+
+## MegaCubo TV Online ##
+
+wget -qO- https://megacubo.tv/install.sh 
+
+
+## Atualizando Essenciais do Sistema ##
+
+## Codecs essenciais ##
+
+sudo apt install mint-meta-codecs -y
+
+## Fontes do Windows ##
+
+sudo apt-get install ttf-mscorefonts-installer -y
+
+## Stacer Gerenciador de Tarefas ##
+
+wget https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/Stacer-1.1.0-x64.AppImage -O stacer.appimage
+
+chmod a+x stacer.appimage
+
+./stacer.appimage
+
+## Instalado o Snap Store ##
+
+sudo rm /etc/apt/preferences.d/nosnap.pref
+
+sudo apt install snapd -y
+
+## Steam ##
+
+sudo apt install steam-installer steam-devices steam:i386 -y
+
+## Lutris e Wine ##
+
+sudo add-apt-repository ppa:lutris-team/lutris -y
+
+sudo apt upgdate
+
+sudo apt install lutris -y
+
+sudo dpkg --add-architecture i386
+
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+
+sudo apt-key add winehq.key
+
+sudo apt update
+
+sudo apt install --install-recomends winehq-stable -y
+
+sudo apt install libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libsqlite3-0:i386 -y
+
+sudo apt update && sudo apt dist-upgrade
+
+echo "Instalação concluída com sucesso"
+
+
+
+
+
+
+
+
+
+
+
