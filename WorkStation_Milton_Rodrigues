@@ -22,6 +22,10 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 
 wget -c https://az764295.vo.msecnd.net/stable/d2e414d9e4239a252d1ab117bd7067f125afd80a/code_1.50.1-1602600906_amd64.deb
 
+## Git Kraken GUI
+
+wget -c https://release.gitkraken.com/linux/gitkraken-amd64.deb
+
 ## OnlyOffice Desktop Edition ##
 
 wget -c  https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb?_ga=2.57419820.764533964.1595236576-1157782750.1587541027
