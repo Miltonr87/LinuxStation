@@ -24,7 +24,7 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 
 ## VSCode Microsoft Professional ##
 
-wget -c https://az764295.vo.msecnd.net/stable/d2e414d9e4239a252d1ab117bd7067f125afd80a/code_1.50.1-1602600906_amd64.deb
+wget -c https://go.microsoft.com/fwlink/?LinkID=760868
 
 ## GitHub Desktop Linux
 
