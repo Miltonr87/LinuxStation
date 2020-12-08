@@ -14,6 +14,10 @@ mkdir /home/$USER/Downloads/programas
 
 cd /home/$USER/Downloads/programas
 
+## Stacer Gerenciador de Tarefas ##
+
+wget -c https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/stacer_1.1.0_amd64.deb
+
 ## Google Chrome ##
 
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -22,9 +26,12 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 
 wget -c https://az764295.vo.msecnd.net/stable/d2e414d9e4239a252d1ab117bd7067f125afd80a/code_1.50.1-1602600906_amd64.deb
 
-## Git Kraken GUI
+## GitHub Desktop Linux
 
-wget -c https://release.gitkraken.com/linux/gitkraken-amd64.deb
+wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
+sudo apt-get update
+sudo apt install github-desktop
 
 ## OnlyOffice Desktop Edition ##
 
@@ -36,7 +43,6 @@ sudo dpkg -i *.deb
 
 ## Brave Browser ##
 
-
 sudo apt install apt-transport-https curl
 
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
@@ -44,24 +50,6 @@ curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt
 echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 
 sudo apt install brave-browser
-
-
-## PopCorn Time ##
-
-wget -c https://ci.popcorntime.sh/view/All/job/Popcorn-Time-Desktop/lastSuccessfulBuild/artifact/build/Popcorn-Time-0.3.10_linux64.tar.xz -O popcorntime.tar.xz
-
-sudo mkdir /opt/popcorntime
-
-sudo tar Jxf popcorntime.tar.xz -C /opt/popcorntime/
-
-sudo ln -sf /opt/popcorntime/Popcorn-Time /usr/bin/Popcorn-Time
-
-cp /usr/share/applications/popcorntime.desktop  ~/Área\ de\ Trabalho/
-
-
-## MegaCubo TV Online ##
-
-wget -qO- https://megacubo.tv/install.sh 
 
 
 ## Atualizando Essenciais do Sistema ##
@@ -73,14 +61,6 @@ sudo apt install mint-meta-codecs -y
 ## Fontes do Windows ##
 
 sudo apt-get install ttf-mscorefonts-installer -y
-
-## Stacer Gerenciador de Tarefas ##
-
-wget https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/Stacer-1.1.0-x64.AppImage -O stacer.appimage
-
-chmod a+x stacer.appimage
-
-./stacer.appimage
 
 ## Instalado o Snap Store ##
 
