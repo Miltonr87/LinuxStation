@@ -76,11 +76,7 @@ sudo apt install steam-installer steam-devices steam:i386 -y
 
 sudo add-apt-repository ppa:lutris-team/lutris -y
 
-sudo apt upgdate
-
 sudo apt install lutris -y
-
-sudo dpkg --add-architecture i386
 
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 
@@ -89,8 +85,6 @@ sudo apt-key add winehq.key
 sudo apt update
 
 sudo apt install --install-recomends winehq-stable -y
-
-sudo apt install libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libsqlite3-0:i386 -y
 
 sudo apt update && sudo apt dist-upgrade
 
