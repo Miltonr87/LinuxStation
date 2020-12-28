@@ -1,22 +1,30 @@
 #!/bin/bash
 
-## Começando meu Shell Script! ##
+## Starting my Shell Script! ##
 
 sudo rm var lib dpkg lock-frontend ; sudo rm/var/cache/apt/archives/lock; 
 
-## Atualizando o repositório ##
+## Updating the repository ##
 
 sudo apt update
 
-## Download de aplicativos externos: ##
+## Removing Redshift (don't worry!) ##
+
+sudo apt remove redshift -y
+
+## Downloading external applications ##
 
 mkdir /home/$USER/Downloads/programas
 
 cd /home/$USER/Downloads/programas
 
-## Stacer Gerenciador de Tarefas ##
+## Stacer Task Manager ##
 
 wget -c https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/stacer_1.1.0_amd64.deb
+
+## Flux to replace RedShift (for LINUX MINT) ##
+
+wget -c https://launchpad.net/~nathan-renniewaldock/+archive/ubuntu/flux/+files/fluxgui_1.2.0~pre~20190501-g0548b6f-1~bionic_all.deb
 
 ## Google Chrome ##
 
@@ -26,13 +34,6 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 
 wget -c https://go.microsoft.com/fwlink/?LinkID=760868
 
-## GitHub Desktop Linux
-
-wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
-sudo apt-get update
-sudo apt install github-desktop
-
 ## OnlyOffice Desktop Edition ##
 
 wget -c  https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb?_ga=2.57419820.764533964.1595236576-1157782750.1587541027
@@ -40,6 +41,11 @@ wget -c  https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffic
 
 sudo dpkg -i *.deb
 
+## GitHub Desktop Linux
+
+wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
+sudo apt install github-desktop
 
 ## Brave Browser ##
 
@@ -52,17 +58,17 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 sudo apt install brave-browser
 
 
-## Atualizando Essenciais do Sistema ##
+## Updating System Essentials ##
 
-## Codecs essenciais ##
+## Codecs essentials ##
 
 sudo apt install mint-meta-codecs -y
 
-## Fontes do Windows ##
+## Windows original fonts ##
 
 sudo apt-get install ttf-mscorefonts-installer -y
 
-## Instalado o Snap Store ##
+## Snap Store ##
 
 sudo rm /etc/apt/preferences.d/nosnap.pref
 
@@ -72,7 +78,7 @@ sudo apt install snapd -y
 
 sudo apt install steam-installer steam-devices steam:i386 -y
 
-## Lutris e Wine ##
+## Lutris and Wine ##
 
 sudo add-apt-repository ppa:lutris-team/lutris -y
 
@@ -88,7 +94,7 @@ sudo apt install --install-recomends winehq-stable -y
 
 sudo apt update && sudo apt dist-upgrade
 
-echo "Instalação concluída com sucesso"
+echo "Installation completed successfully"
 
 
 
