@@ -5,6 +5,7 @@ This is my personal workstation as a developer. The Workstation is done as a she
 ## WorkStation v2.5 (Core APPs) 
 
 1. Stacer
+1. Flux (replacing RedShift from default on Linux Mint)
 1. Google Chrome
 1. Brave Browser
 1. VSCode Microsoft Professional
