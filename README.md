@@ -1,8 +1,10 @@
-# Milton Rodrigues WorkStation v2.5
+### Milton Rodrigues WorkStation v2.5
 
-This is my personal workstation as a developer. The Workstation is done as a shell script and focused on my distro (Linux Mint), but it can be used by any other Debian distributions like Ubuntu. The idea here is to speed up the process of downloading and installing important files outside the Linux Mint Store.
+![Screen Shot](https://github.com/Miltonr87/beer-caps-game/blob/main/beercaps.png)
 
-## WorkStation v2.5 (Core APPs) 
+This is my personal workstation as a developer. The Workstation is done as a shell script and focused on my distro (Linux Mint), but it can be used by any other Debian distributions like Ubuntu. The idea here is to speed up the process of downloading and installing important files outside the Mint Store.
+
+### WorkStation v2.5 (Core APPs) 
 
 1. Stacer
 1. Flux (replacing RedShift from default on Linux Mint)
@@ -18,7 +20,7 @@ This is my personal workstation as a developer. The Workstation is done as a she
 1. Lutris
 1. Wine
 
-## VSCode Extensions v3.0
+### VSCode Extensions v3.0
 
 1. Babel Javascript
 1. Bracket Pair Colorizer
