@@ -13,18 +13,15 @@ code --install-extension christian-kohler.path-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.code-runner
-code --install-extension gamunu.vscode-yarn
 code --install-extension GraphQL.vscode-graphql
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension kamikillerto.vscode-colorize
 code --install-extension maykbrito.theme-launchbase
 code --install-extension mgmcdermott.vscode-language-babel
 code --install-extension msjsdiag.debugger-for-chrome
-code --install-extension msjsdiag.vscode-react-native
 code --install-extension PKief.material-icon-theme
 code --install-extension pranaygp.vscode-css-peek
 code --install-extension ritwickdey.LiveServer
@@ -33,8 +30,6 @@ code --install-extension searKing.preview-vscode
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension vincaslt.highlight-matching-tag
 code --install-extension VisualStudioExptTeam.vscodeintellicode
-code --install-extension Wscats.react-extension-pack
-code --install-extension xabikos.JavaScriptSnippets
 code --install-extension xshrim.txt-syntax
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension Zignd.html-css-class-completion

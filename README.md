@@ -29,27 +29,20 @@ This is my personal workstation as a developer. The Workstation is done as a she
 1. Colorize
 1. CSS Peek
 1. Debugger for Chrome
-1. ES7 React/Redux/GraphQL/React-Native snippets
 1. ESLint
 1. GitLens
 1. GraphQL
 1. Highlight Matching Tag
-1. HTML/CSS/Javascript Snippets
-1. JavaScript (ES6) code snippets
 1. Launchbase Theme
 1. Live Server
-1. Markdown All in One
-1. Material Icon Theme
-1. npm Intellisense
-1. Prettier - Code formatter
+1.  Markdown All in One
+1.  Material Icon Theme
+1.  npm Intellisense
+1.  Prettier - Code formatter
 1. Preview
 1. Rainbow Brackets
-1. React Extension Pack
-1. React Native Tools
-1. Search/Translate Hero - Google/Translate/Bing/Baidu/Wiki/Yahoo/Github/Npm Engine
-1. Text Marker (Highlighter)
-1. Txt Syntax
-1. Visual Studio IntelliCode
-1. VSCode Styled Components
-1. Yarn
+1.  Text Marker (Highlighter)
+1.  Txt Syntax
+1.  Visual Studio IntelliCode
+1.  VSCode Styled Components
 
