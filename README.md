@@ -18,7 +18,7 @@ This is my personal workstation as a developer. The Workstation is done as a she
 1. Lutris
 1. Wine
 
-## VSCode Extensions v2.5
+## VSCode Extensions v3.0
 
 1. Babel Javascript
 1. Bracket Pair Colorizer
