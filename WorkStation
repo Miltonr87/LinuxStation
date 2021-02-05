@@ -38,6 +38,9 @@ wget -c https://go.microsoft.com/fwlink/?LinkID=760868
 
 wget -c  https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb?_ga=2.57419820.764533964.1595236576-1157782750.1587541027
 
+## Notion IO Desktop ##
+
+wget -c https://github.com/davidbailey00/notion-linux/releases/download/v2.0.6-windows/notion-desktop_2.0.6_amd64.deb
 
 sudo dpkg -i *.deb
 
@@ -57,8 +60,18 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 
 sudo apt install brave-browser
 
-
 ## Updating System Essentials ##
+
+## Enpass ##
+
+sudo -i
+
+echo "deb https://apt.enpass.io/ stable main" > \
+  /etc/apt/sources.list.d/enpass.list
+
+wget -O - https://apt.enpass.io/keys/enpass-linux.key | apt-key add -
+
+sudo apt install enpass
 
 ## Codecs essentials ##
 
