@@ -1,7 +1,5 @@
 ### Milton Rodrigues WorkStation v2.5
 
-![Screen Shot](https://github.com/Miltonr87/workstation/blob/main/workstation.png)
-
 This is my personal workstation as a developer. The Workstation is done as a shell script and focused on my distro (Linux Mint), but it can be used by any other Debian distributions like Ubuntu. The idea here is to speed up the process of downloading and installing important files outside the Mint Store.
 
 ### WorkStation v2.5 (Core APPs) 
