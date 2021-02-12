@@ -73,6 +73,8 @@ wget -O - https://apt.enpass.io/keys/enpass-linux.key | apt-key add -
 
 sudo apt install enpass
 
+https://go.microsoft.com/fwlink/p/?LinkID=2112886&clcid=0x416&culture=pt-br&country=BR
+
 ## Codecs essentials ##
 
 sudo apt install mint-meta-codecs -y
@@ -80,6 +82,14 @@ sudo apt install mint-meta-codecs -y
 ## Windows original fonts ##
 
 sudo apt-get install ttf-mscorefonts-installer -y
+
+## Microsoft Teams ##
+
+wget "https://teams.microsoft.com/downloads/desktopurl?env=production&plat=linux&arch=x64&download=true&linuxArchiveType=deb" -O teams.deb
+
+sudo dpkg -i teams.deb
+
+sudo apt-get install -f
 
 ## Snap Store ##
 

@@ -15,6 +15,7 @@ This is my personal workstation as a developer. The Workstation is done as a she
 1. OnlyOffice Desktop Edition
 1. Codecs Essentials for Linux
 1. Windows Fonts
+1. Microsoft Teams
 1. Snap Store
 1. Steam
 1. Lutris
