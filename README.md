@@ -1,8 +1,8 @@
-### Milton Rodrigues WorkStation v2.5
+### Milton Rodrigues LinuxStation v3.0
 
 This is my personal workstation as a developer. The Workstation is done as a shell script and focused on my distro (Linux Mint), but it can be used by any other Debian distributions like Ubuntu. The idea here is to speed up the process of downloading and installing important files outside the Mint Store.
 
-### WorkStation v2.5 (Core APPs) 
+### LinuxStation (Core APPs) 
 
 1. Stacer
 1. Flux (replacing RedShift from default on Linux Mint)
@@ -20,8 +20,9 @@ This is my personal workstation as a developer. The Workstation is done as a she
 1. Steam
 1. Lutris
 1. Wine
+1. ElectronPlayer
 
-### VSCode Extensions v3.0
+### VSCode Extensions
 
 1. Babel Javascript
 1. Bracket Pair Colorizer2
