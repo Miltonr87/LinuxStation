@@ -97,6 +97,10 @@ sudo rm /etc/apt/preferences.d/nosnap.pref
 
 sudo apt install snapd -y
 
+## ElectronPlayer (Netflix, Amazon Prime, Disney+) ##
+
+sudo snap install electronplayer
+
 ## Steam ##
 
 sudo apt install steam-installer steam-devices steam:i386 -y
