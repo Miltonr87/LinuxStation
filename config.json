@@ -1,0 +1,38 @@
+{
+	"version": "2.0.7",
+	"services": [
+		{
+			"name": "Amazon",
+			"logo": "https://img.utdstc.com/icon/d23/215/d232154e8077a2df6c15bdae562545febcd5570da2b691c47fe55d71385e37e9:200",
+			"url": "https://www.primevideo.com/",
+			"color": "blue",
+			"style": {}
+		},
+		{
+			"name": "Disney +",
+			"logo": "https://img.utdstc.com/icon/450/910/4509105e106a5cf097ebb333916748910ca1e11c39243efa3680d4dd49d4652c:200",
+			"url": "https://www.disneyplus.com/pt-br/",
+			"color": "#6441a5",
+			"style": {}
+		},
+		{
+			"name": "Globo Play",
+			"logo": "https://img.apksum.com/8a/com.globo.globotv/3.95.0/icon.png",
+			"url": "https://globoplay.globo.com/",
+			"color": "#e50914",
+			"style": {}
+		},
+		{
+			"name": "Netflix",
+			"logo": "https://img.utdstc.com/icon/102/4be/1024be4462ba7a5daf2fd01c3ba492c859673e32af8a354cd3a494ce12d1132f:200",
+			"url": "https://netflix.com/browse",
+			"color": "#fff",
+			"style": {}
+		}
+	],
+	"options": {
+		"lastOpenedPage": "",
+		"alwaysOnTop": false
+	},
+	"relaunch": {}
+}
