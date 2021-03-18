@@ -1,6 +1,10 @@
-### Milton Rodrigues LinuxStation v3.1
+### Milton Rodrigues LinuxStation 
 
-This is my personal workstation as a developer. The Workstation is done as a shell script and focused on my distro (Linux Mint), but it can be used by any other Debian distributions like Ubuntu. The idea here is to speed up the process of downloading and installing important files outside the Mint Store.
+This is my personal workstation as a developer. The Workstation is done with shell script and focused on my distro (Linux Mint), but it can be used by any other Debian distributions like Ubuntu if you are interested. The idea here is to speed up the process of downloading and installing important files outside the Mint Store.
+
+## WARNING ##
+
+Now, all changes will appear at https://gist.github.com/Miltonr87 this repository is saved here only to keep what has been done so far.
 
 ### LinuxStation (Core APPs) 
 
