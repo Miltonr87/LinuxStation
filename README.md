@@ -1,14 +1,15 @@
-### Milton Rodrigues LinuxStation v3.1
+### Milton Rodrigues LinuxStation v4.0
 
 This is my personal workstation as a developer. The Workstation is done as a shell script and focused on my distro (Linux Mint), but it can be used by any other Debian distributions like Ubuntu. The idea here is to speed up the process of downloading and installing important files outside the Mint Store.
 
 ### LinuxStation (Core APPs) 
 
 1. Stacer
-1. Flux (replacing RedShift from default on Linux Mint)
+1. Flux (replacing RedShift on Linux Mint)
 1. Google Chrome
 1. Brave Browser
-1. VSCode Microsoft Professional
+1. VSCode Editor
+1. Firacode Extension
 1. Notion IO
 1. Enpass
 1. GitHub Desktop Linux
@@ -17,27 +18,21 @@ This is my personal workstation as a developer. The Workstation is done as a she
 1. Windows Fonts
 1. Microsoft Teams
 1. Snap Store
-1. Steam
-1. Lutris
-1. Wine
+1. Lutris + Wine
 1. ElectronPlayer
 
 ### VSCode Extensions
 
 1. Bracket Pair Colorizer2
 1. Code Spell Checker
-1. Color Highlight
 1. Color Picker
 1. Colorize
-1. CSS Peek
-1. ESLint
 1. Highlight Matching Tag
-1. Launchbase Theme
-1. Live Server
-1. Material Icon Theme
+1. Dark Walker
+1. VSCode Icons
 1. Prettier - Code formatter
-1. Preview
 1. Rainbow Brackets
 1. Txt Syntax
-1.  VSCode Styled Components
+1. VSCode Styled Components
+1. Eslint
 

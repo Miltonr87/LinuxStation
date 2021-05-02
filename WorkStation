@@ -34,6 +34,12 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 
 wget -c https://go.microsoft.com/fwlink/?LinkID=760868
 
+## Firacode Extension for VSCode ##
+
+mkdir -p ~/.local/share/fonts
+for type in Bold Light Medium Regular Retina; do wget -O ~/.local/share/fonts/FiraCode-$type.ttf "https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-$type.ttf?raw=true"; done
+fc-cache -f
+
 ## OnlyOffice Desktop Edition ##
 
 wget -c  https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb?_ga=2.57419820.764533964.1595236576-1157782750.1587541027
@@ -101,10 +107,6 @@ sudo apt install snapd -y
 
 sudo snap install electronplayer
 
-## Steam ##
-
-sudo apt install steam-installer steam-devices steam:i386 -y
-
 ## Lutris and Wine ##
 
 sudo add-apt-repository ppa:lutris-team/lutris -y
@@ -122,14 +124,3 @@ sudo apt install --install-recomends winehq-stable -y
 sudo apt update && sudo apt dist-upgrade
 
 echo "Installation completed successfully"
-
-
-
-
-
-
-
-
-
-
-
