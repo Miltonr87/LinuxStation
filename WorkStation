@@ -40,15 +40,20 @@ mkdir -p ~/.local/share/fonts
 for type in Bold Light Medium Regular Retina; do wget -O ~/.local/share/fonts/FiraCode-$type.ttf "https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-$type.ttf?raw=true"; done
 fc-cache -f
 
+## Updating Office Essentials ##
 ## OnlyOffice Desktop Edition ##
 
 wget -c  https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb?_ga=2.57419820.764533964.1595236576-1157782750.1587541027
 
-## Notion IO Desktop ##
+## Evernote Desktop ##
 
-wget -c https://github.com/davidbailey00/notion-linux/releases/download/v2.0.6-windows/notion-desktop_2.0.6_amd64.deb
+wget -c https://cdn1.evernote.com/boron/linux/builds/Evernote-10.7.6-linux-ddl-ga-2321.deb -O evernote.deb
 
 sudo dpkg -i *.deb
+
+## Webcatalog
+
+wget -c https://github.com/webcatalog/webcatalog-app/releases/download/v35.1.1/webcatalog-35.1.1.AppImage
 
 ## GitHub Desktop Linux
 
@@ -67,7 +72,6 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 sudo apt install brave-browser
 
 ## Updating System Essentials ##
-
 ## Enpass ##
 
 sudo -i
@@ -102,10 +106,6 @@ sudo apt-get install -f
 sudo rm /etc/apt/preferences.d/nosnap.pref
 
 sudo apt install snapd -y
-
-## ElectronPlayer (Netflix, Amazon Prime, Disney+) ##
-
-sudo snap install electronplayer
 
 ## Lutris and Wine ##
 
