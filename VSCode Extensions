@@ -13,9 +13,12 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension kamikillerto.vscode-colorize
+code --install-extension mhutchie.git-graph
 code --install-extension Miltonr87.dark-walker
+code --install-extension rangav.vscode-thunder-client
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension vincaslt.highlight-matching-tag
+code --install-extension TabNine.tabnine-vscode
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension xshrim.txt-syntax
 code --install-extension dbaeumer.vscode-eslint
